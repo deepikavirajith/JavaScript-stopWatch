@@ -1,0 +1,33 @@
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
+  background-color: chocolate;
+  height: 100%; }
+
+h2 {
+  margin: 0px auto;
+  padding: 0px 0px;
+  text-align: center;
+  color: white;
+  font-style: italic; }
+
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge; }
+
+p {
+  font-size: 2em;
+  color: white;
+  font-style: italic; }
+
+.btn {
+  color: white;
+  width: 200px;
+  height: 50px;
+  font-size: 1.5em;
+  font-style: italic;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 10px;
+  border: solid 1px; }

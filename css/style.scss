@@ -1,0 +1,46 @@
+$It-gray:#ddd;
+$background-dark:rgb(174, 30, 210);
+$color:white;
+$font-style:italic;
+
+ 
+@mixin zero-margin($pad-up-dn, $pad-left-right) {
+    margin: 0px auto;
+    padding: $pad-up-dn $pad-left-right;   
+}
+body{
+    padding: 50px 0px 0px 0px;
+    z-index: 0; 
+    background-color: $background-dark;
+    height: 100%;
+   
+}
+h2{
+    @include zero-margin(0px, 0px);
+    text-align: center;
+    color: $color;
+    font-style: $font-style;
+}
+
+.row-content {
+   @include zero-margin(50px, 0px);
+    border-bottom: 1px ridge;
+}
+
+p{
+    font-size: 2em;
+    color: $color;
+    font-style: $font-style;
+}
+
+.btn{
+    color: $color;
+    width: 200px;
+    height: 50px;
+    font-size: 1.5em;
+    font-style: $font-style;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px;
+    border: solid 1px; 
+}
